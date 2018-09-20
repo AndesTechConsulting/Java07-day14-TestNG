@@ -1,15 +1,10 @@
 package ru.andestech.learning.rfb18.utils;
 
-
 import java.io.IOException;
-
 import java.nio.file.Files;
 import java.nio.file.LinkOption;
 import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
 import static java.nio.file.Files.readAllLines;
 import static java.nio.file.Paths.get;
 
