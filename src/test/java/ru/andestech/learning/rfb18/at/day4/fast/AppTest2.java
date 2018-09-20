@@ -1,7 +1,6 @@
 package ru.andestech.learning.rfb18.at.day4.fast;
 
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;

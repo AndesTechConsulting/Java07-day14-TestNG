@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+    <test name="Fast">
+        <parameter name="fname" value="C:\Users\and\IdeaProjects2\ModuleTestNGday4\numbers1.txt" />
+        <parameter name="sep" value=","  />
+
+        <parameter name="fname2" value="C:\Users\and\IdeaProjects2\ModuleTestNGday4\numbers2.txt" />
+        <parameter name="sep2" value=","  />
+
+        <classes>
+            <class name="ru.andestech.learning.rfb18.at.day4.AppTest" />
+
+        </classes>
+
+    </test>
+
+</suite>
