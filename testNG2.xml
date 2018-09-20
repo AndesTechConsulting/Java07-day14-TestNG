@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+    <test name="Fast">
+
+        <parameter name="version" value="12.22.34.0" />
+
+        <groups>
+            <define name="ALL" >
+                <include name="g1" />
+                <include name="g2" />
+                <include name="g3" />
+            </define>
+
+            <run>
+              <include name="ALL" />
+              <exclude name="g3" />
+            </run>
+        </groups>
+
+        <!--<packages>-->
+            <!--<package name="ru.andestech.learning.rfb18.at.day4.fast" />-->
+        <!--</packages>-->
+        
+        <classes>
+            <class name="ru.andestech.learning.rfb18.at.day4.fast.AppTest2" >
+              <methods>
+                  <include name="methBB" >
+                   <parameter name="name2" value="Andrei" />
+                   <parameter name="tel" value="+797487623487" />
+                   <parameter name="login" value="A721687" />
+                   <!--....-->
+                  </include>
+                  <include name="methAA" />
+              </methods>
+            </class>
+        </classes>
+
+    </test>
+
+    <!--<test name="Slow">-->
+
+        <!--<packages>-->
+            <!--<package name="ru.andestech.learning.rfb18.at.day4" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+</suite>

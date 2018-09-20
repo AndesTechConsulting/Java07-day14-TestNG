@@ -1,0 +1,34 @@
+C:\Users\and\IdeaProjects2\ModuleTestNGday4\target>java -cp ModuleTestNGday4-1.0
+-SNAPSHOT-tests.jar;C:\Users\and\.m2\repository\org\testng\testng\6.14.3\testng-
+6.14.3.jar;C:\Users\and\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72
+.jar org.testng.TestNG ..\testNG2.xml
+
+++  methBB
+Andrei, tel:+797487623487, login as:A721687
+++  methAA
+version: 12.22.34.0
+
+===============================================
+Suite1
+Total tests run: 2, Failures: 0, Skips: 0
+===============================================
+
+//-----------------------------------------------------
+
+C:\Users\and\IdeaProjects2\ModuleTestNGday4\target>java -cp ModuleTestNGday4-1.0
+-SNAPSHOT-tests.jar;C:\Users\and\.m2\repository\org\testng\testng\6.14.3\testng-
+6.14.3.jar;C:\Users\and\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72
+.jar ru.andestech.learning.rfb18.at.day4.Runner
+++  methAA
+version: null
+++  methBB
+null, tel:null, login as:null
+++  methCC
+++  methDD
+
+===============================================
+Command line suite
+Total tests run: 5, Failures: 0, Skips: 0
+===============================================
+
+!! success!
