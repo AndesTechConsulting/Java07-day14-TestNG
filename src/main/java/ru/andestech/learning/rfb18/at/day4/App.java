@@ -3,6 +3,7 @@ package ru.andestech.learning.rfb18.at.day4;
 import ru.andestech.learning.rfb18.utils.FileUtils;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Locale;
 
 public class App 
@@ -25,5 +26,23 @@ public class App
         System.out.print("\b");
     }
         System.out.println("\n----------------------");
-  }
+
+    //test simple case list to array
+    //student case [][3] array
+        ArrayList<Object[]> arr3= new ArrayList<>();
+        arr3.add(new Object[]{1,2,3});
+        arr3.add(new Object[]{11,12,23});
+        arr3.add(new Object[]{-1,2,3});
+
+        Object[][] o1 = new Object[arr3.size()][3];
+
+        arr3.toArray(o1);
+
+        // debug and stop here, check o1.
+
+
+
+
+
+    }
 }
